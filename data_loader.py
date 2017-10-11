@@ -8,8 +8,6 @@ import numpy as np
 import nltk
 from PIL import Image
 from build_vocab import Vocabulary
-import sys
-sys.path.append('../')
 from coco.pycocotools.coco import COCO
 
 

@@ -8,8 +8,6 @@ import pickle
 from build_vocab import Vocabulary
 from torch.autograd import Variable 
 from torchvision import transforms, datasets
-import sys
-sys.path.append( '../' )
 from coco.pycocotools.coco import COCO
 from coco.pycocoevalcap.eval import COCOEvalCap
 import matplotlib.pyplot as plt

@@ -2,8 +2,6 @@ import nltk
 import pickle
 import argparse
 from collections import Counter
-import sys
-sys.path.append('../')
 from coco.pycocotools.coco import COCO
 
 
