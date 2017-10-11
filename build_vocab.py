@@ -69,9 +69,9 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--caption_path', type=str, 
-                        default='../data/annotations/karpathy_split_train.json', 
+                        default='./data/annotations/karpathy_split_train.json', 
                         help='path for train annotation file')
-    parser.add_argument('--vocab_path', type=str, default='../data/vocab.pkl', 
+    parser.add_argument('--vocab_path', type=str, default='./data/vocab.pkl', 
                         help='path for saving vocabulary wrapper')
     parser.add_argument('--threshold', type=int, default=5, 
                         help='minimum word count threshold')
