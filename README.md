@@ -5,4 +5,14 @@ Knowing When to Look: Adaptive Attention via A Visual Sentinel for Image Caption
 
 **Dataset Preparation**
 
-First we will need to download the MS-COCO dataset
+First we will need to download the MS-COCO dataset. So create a data folder and run the download bash script
+
+``` bash
+mkdir data && ./download.sh
+```
+
+Afterwards, we should create the Karpathy split for training, validation and test.
+
+``` bash
+python KarpathySplit.py
+```
