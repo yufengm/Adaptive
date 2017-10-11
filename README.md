@@ -30,3 +30,9 @@ Now we will need to resize all the images in both train and val folder. Here I c
 ```
 mkdir data/resized && python resize.py
 ```
+
+After all images are resized. Now we can train our Adaptive Attention model with 
+
+```
+python train.py
+```
